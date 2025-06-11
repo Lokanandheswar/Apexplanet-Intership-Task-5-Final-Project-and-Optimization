@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #e9f5ff;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  white-space: pre-wrap;
+}
+
+#message {
+  margin-top: 10px;
+  min-height: 24px;
+  font-weight: 600;
+  color: #d9534f; /* red by default */
+}
+
+#message.success {
+  color: #28a745; /* green */
+}
+
+.timestamp {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 4px;
+}
